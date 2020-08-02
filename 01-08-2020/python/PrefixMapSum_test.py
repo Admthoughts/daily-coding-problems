@@ -17,11 +17,5 @@ class Test_PrefixMapSum(unittest.TestCase):
         want = 5
         self.assertEqual(mapsum.sum("col"), want)
 
-# mapsum.insert("columnar", 3)
-# assert mapsum.sum("col") == 3
-
-# mapsum.insert("column", 2)
-# assert mapsum.sum("col") == 5
-
 if __name__ == '__main__':
     unittest.main()
